@@ -1,0 +1,63 @@
+body {
+  background: #e0e3eb;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .container {
+  position: relative;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 12px;
+  padding: 50px 30px 30px;
+  background: #747474;
+  box-shadow: 12px 12px 15px rgb(94, 94, 94), -12px -12px 15px rgba(255, 255, 255, 0.89);
+}
+body .container .display {
+  height: 80px;
+  text-align: right;
+  word-spacing: -5px;
+  margin-bottom: 25px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  background: #979494;
+  box-shadow: inset 8px 8px 8px rgb(99, 99, 99), inset -8px -8px 8px rgb(129, 128, 128);
+}
+body .container .display .champ {
+  border: none;
+  outline: none;
+  align-items: center;
+  background: #979494;
+  color: lightblue;
+  width: 95%;
+  padding: 15px;
+  font-size: 25px;
+  text-align: right;
+}
+body .container .buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  background: #979494;
+  padding: 30px;
+  border-radius: 5px;
+}
+body .container .buttons button {
+  padding: 15px;
+  border-radius: 6px;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  background: rgb(192, 190, 190);
+}
+body .container .buttons .btn-operator {
+  color: rgb(49, 176, 226);
+  background: #747474;
+}
+body .container .buttons .btn-operator-AC {
+  background: rgb(160, 77, 77);
+}
+body .container .buttons .btn-operator-DEL {
+  background: rgb(70, 128, 70);
+}/*# sourceMappingURL=style.css.map */
